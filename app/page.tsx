@@ -1,7 +1,7 @@
-import { Sidebar } from '../components/Sidebar'
-import { Header } from '../components/header'
-import { BudgetChart } from '../components/budget-chart.tjs'
-import { DealsTable } from '../components/deals-table'
+import { Sidebar } from '../components/pages/sidebar'
+import { Header } from '../components/pages/header'
+import { BudgetChart } from '../components/pages/budget-chart'
+import { DealsTable } from '../components/pages/deals-table'
 
 export default function DashboardPage() {
   return (
